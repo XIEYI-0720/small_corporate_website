@@ -1,0 +1,25 @@
+html, body{
+    margin: 0;
+}
+.main{
+    width: 100%;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 45fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 50%;
+    background-color: bisque;
+    
+}
+.nav{
+    width: 100%;
+}
+.section{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+}
