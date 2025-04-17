@@ -1,0 +1,810 @@
+<!-- 2020级大数据第六组 -->
+<!-- 谢意、金胤宏、王文权 -->
+<html>
+<head>
+    <title>海口经济学院 | 继续教育学院</title>
+    <style>
+       body{
+    	margin:0
+ 	   }
+	   .daohang{
+		float: left;
+		line-height:52px;
+		width:122px;
+		height: 52px;
+	   }
+	   .daohang1{
+		float: left;
+		text-align:center;
+		width:200px;
+		height: 50px;
+		color:#ffffff;
+		line-height:50px;
+    	}
+   	 	ul.biao1{
+   	 		list-style-type: square;
+    		float:left;
+    		margin: 0px 0px 0px 15px;
+    		padding: 0px 0px 0px 5px;
+    	}
+    	li.biao2{
+	   		font-size:14px;
+	  	 	color:#333333;
+	  	  	height:44px;
+	    	width:393px;
+    		padding-left:0px;
+    	}
+		.youqing{
+			float: left;
+			width: 244px;
+			height: 100px;
+			background-color: #ffffff;
+		}
+
+    </style>
+	<!-- <script src="/jquery/jquery-3.6.4.min.js"></script> -->
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#gaikuang").stop(true,true).mouseover(function(){
+			$("#gaikuang1").css('visibility','');
+			$('#gaikuang').css('background-color','#35636d')
+			$("#gaikuang1").animate({top:"-=18px"});
+		});
+		$("#gaikuang").stop(true,true).mouseout(function(){
+			$("#gaikuang1").css('visibility','hidden');
+			$("#gaikuang").css('background-color','#55a8ba');
+			$("#gaikuang1").animate({top:"+=18px"});
+		});
+
+
+		$("#dongtai").stop(true,true).mouseover(function(){
+			$("#dongtai1").css('visibility','');
+			$('#dongtai').css('background-color','#35636d')
+			$("#dongtai1").animate({top:"-=18px"});
+		});
+		$("#dongtai").stop(true,true).mouseout(function(){
+			$("#dongtai1").css('visibility','hidden');
+			$("#dongtai").css('background-color','#55a8ba');
+			$("#dongtai1").animate({top:"+=18px"});
+		});
+
+
+		$("#kaoshi").stop(true,true).mouseover(function(){
+			$("#kaoshi1").css('visibility','');
+			$('#kaoshi').css('background-color','#35636d')
+			$("#kaoshi1").animate({top:"-=18px"});
+		});
+		$("#kaoshi").stop(true,true).mouseout(function(){
+			$("#kaoshi1").css('visibility','hidden');
+			$("#kaoshi").css('background-color','#55a8ba');
+			$("#kaoshi1").animate({top:"+=18px"});
+		});
+
+
+		$("#jiaoyu").stop(true,true).mouseover(function(){
+			$("#jiaoyu1").css('visibility','');
+			$('#jiaoyu').css('background-color','#35636d')
+			$("#jiaoyu1").animate({top:"-=18px"});
+		});
+		$("#jiaoyu").stop(true,true).mouseout(function(){
+			$("#jiaoyu1").css('visibility','hidden');
+			$("#jiaoyu").css('background-color','#55a8ba');
+			$("#jiaoyu1").animate({top:"+=18px"});
+		});
+
+
+		$("#peixun").stop(true,true).mouseover(function(){
+			$("#peixun1").css('visibility','');
+			$('#peixun').css('background-color','#35636d')
+			$("#peixun1").animate({top:"-=18px"});
+		});
+		$("#peixun").stop(true,true).mouseout(function(){
+			$("#peixun1").css('visibility','hidden');
+			$("#peixun").css('background-color','#55a8ba');
+			$("#peixun1").animate({top:"+=18px"});
+		});
+		
+
+		$("#dangjian").stop(true,true).mouseover(function(){
+			$('#dangjian').css('background-color','#35636d')
+		});
+		$("#dangjian").stop(true,true).mouseout(function(){
+			$("#dangjian").css('background-color','#55a8ba');
+		});
+
+		$("#xiazai").stop(true,true).mouseover(function(){
+			$('#xiazai').css('background-color','#35636d')
+		});
+		$("#xiazai").stop(true,true).mouseout(function(){
+			$("#xiazai").css('background-color','#55a8ba');
+		});
+
+
+		$("#zhinan").stop(true,true).mouseover(function(){
+			$('#zhinan').css('background-color','#35636d')
+		});
+		$("#zhinan").stop(true,true).mouseout(function(){
+			$("#zhinan").css('background-color','#55a8ba');
+		});
+
+
+		$("#gengduo1").stop(true,true).mouseover(function(){
+			$('#gengduo1').css('background-color','#44687e')
+		});
+		$("#gengduo1").stop(true,true).mouseout(function(){
+			$("#gengduo1").css('background-color','#3899aa');
+		});
+
+
+		$("#gengduo2").stop(true,true).mouseover(function(){
+			$('#gengduo2').css('background-color','#44687e')
+		});
+		$("#gengduo2").stop(true,true).mouseout(function(){
+			$("#gengduo2").css('background-color','#3899aa');
+		});
+
+
+		$("#gengduo3").stop(true,true).mouseover(function(){
+			$('#gengduo3').css('background-color','#44687e')
+		});
+		$("#gengduo3").stop(true,true).mouseout(function(){
+			$("#gengduo3").css('background-color','#3899aa');
+		});
+
+
+		$("#gengduo4").stop(true,true).mouseover(function(){
+			$('#gengduo4').css('background-color','#44687e')
+		});
+		$("#gengduo4").stop(true,true).mouseout(function(){
+			$("#gengduo4").css('background-color','#3899aa');
+		});
+
+
+		$("#gengduo5").stop(true,true).mouseover(function(){
+			$('#gengduo5').css('background-color','#44687e')
+		});
+		$("#gengduo5").stop(true,true).mouseout(function(){
+			$("#gengduo5").css('background-color','#3899aa');
+		});
+
+
+		$("#gengduo6").stop(true,true).mouseover(function(){
+			$('#gengduo6').css('background-color','#44687e')
+		});
+		$("#gengduo6").stop(true,true).mouseout(function(){
+			$("#gengduo6").css('background-color','#3899aa');
+		});
+
+
+		$("#youqing1").stop(true,true).mouseover(function(){
+			$("#youqing1").css('box-shadow','10px 10px 10px #c6c6c6')
+		})
+		$("#youqing1").stop(true,true).mouseout(function(){
+			$("#youqing1").css('box-shadow','')
+		})
+
+		$("#youqing2").stop(true,true).mouseover(function(){
+			$("#youqing2").css('box-shadow','10px 10px 10px #c6c6c6')
+		})
+		$("#youqing2").stop(true,true).mouseout(function(){
+			$("#youqing2").css('box-shadow','')
+		})
+
+		$("#youqing3").stop(true,true).mouseover(function(){
+			$("#youqing3").css('box-shadow','10px 10px 10px #c6c6c6')
+		})
+		$("#youqing3").stop(true,true).mouseout(function(){
+			$("#youqing3").css('box-shadow','')
+		})
+
+		$("#youqing4").stop(true,true).mouseover(function(){
+			$("#youqing4").css('box-shadow','10px 10px 10px #c6c6c6')
+		})
+		$("#youqing4").stop(true,true).mouseout(function(){
+			$("#youqing4").css('box-shadow','')
+		})
+
+		$("#youqing5").stop(true,true).mouseover(function(){
+			$("#youqing5").css('box-shadow','10px 10px 10px #c6c6c6')
+		})
+		$("#youqing5").stop(true,true).mouseout(function(){
+			$("#youqing5").css('box-shadow','')
+		})
+
+
+		$("#jingcai11").stop(true,true).mouseover(function(){
+			$("#jingcai11").css('background-color','#25778e')
+			$("#jingcai111").css('opacity','0.3')
+		})
+		$("#jingcai11").stop(true,true).mouseout(function(){
+			$("#jingcai11").css('background-color','')
+			$("#jingcai111").css('opacity','1')
+		})
+
+		$("#jingcai22").stop(true,true).mouseover(function(){
+			$("#jingcai22").css('background-color','#25778e')
+			$("#jingcai222").css('opacity','0.3')
+		})
+		$("#jingcai22").stop(true,true).mouseout(function(){
+			$("#jingcai22").css('background-color','')
+			$("#jingcai222").css('opacity','1')
+		})
+
+		$("#jingcai33").stop(true,true).mouseover(function(){
+			$("#jingcai33").css('background-color','#25778e')
+			$("#jingcai333").css('opacity','0.3')
+		})
+		$("#jingcai33").stop(true,true).mouseout(function(){
+			$("#jingcai33").css('background-color','')
+			$("#jingcai333").css('opacity','1')
+		})
+
+		$("#jingcai44").stop(true,true).mouseover(function(){
+			$("#jingcai44").css('background-color','#25778e')
+			$("#jingcai444").css('opacity','0.3')
+		})
+		$("#jingcai44").stop(true,true).mouseout(function(){
+			$("#jingcai44").css('background-color','')
+			$("#jingcai444").css('opacity','1')
+		})
+	});
+	</script>
+</head>
+<body>
+<!---------------------------------------头部------------------------------------->
+	<div style="background-color: #ececea;height:100px;display: flex;justify-content: center;">
+    	<div style="position: absolute;margin:auto;background-image:url('head-bg.png');width:1920;height:100px;">
+			<div style="width:1280px;margin:auto;">
+				<img src="logo.png" width=auto height=60 style="margin-top:20px;">
+				<div style="float:right;font-size:14px;margin-top:30px;">
+					<div style="float:right;width:72px;height:44px;border-radius: 25px;background-color:#127fcc;color:#ffffff;">
+						<a style="float:right;margin-right:15px;margin-top:10px;">建议箱</a>
+					</div>
+					<div style="float:right;width:42px;height:42px;border-radius: 25px;background-color:#90c38b;margin-right:10px;">
+						<img src="header3.png" width=auto height=20 style="float:right;margin-top:10px;margin-right:10px;">
+					</div>
+					<div style="float:right;width:42px;height:42px;border-radius: 25px;background-color:#eebb9e;margin-right:10px;">
+						<img src="header2.png" width=auto height=20 style="float:right;margin-top:10px;margin-right:13px;">
+					</div>
+					<div style="float:right;width:42px;height:42px;border-radius: 25px;background-color:#eebb9e;margin-right:10px;">
+						<img src="header2.png" width=auto height=20 style="float:right;margin-top:10px;margin-right:13px;">
+					</div>
+					<div style="float:right;width:270px;height:42px;border-radius: 25px;border:1px solid #53a5b5;color:#53a5b5;margin-right:20px;">
+						<div style="float:right;width:60px;height:42px;border-radius: 25px;background-color:#53a5b5;">
+							<img src="search.png" style="float:right;width:20px;margin-right:20px;margin-top:10px;">
+						</div>
+						<div style="margin-top: 10px;margin-left: 20px;">
+						<span>输入检索关键词...</span>
+						</div>
+					</div>
+					<div style="float:right;color:#55a8ba;margin-top:13px;margin-right:20px;">
+							学校官网  |
+					</div>
+				</div>
+	 		</div>
+		</div>
+		<div style="clear:both">
+		</div>
+	</div>
+<!---------------导航栏-------------->
+	<div style="background-color: #55a8ba;height:52px;display: flex;justify-content: center;">
+		<div style="width:1280px;margin:auto;text-align: center;color:#ffffff;">
+			<div style="float: left;width:90px;height: 37px;background-color:#35636d;margin-left: 100px;padding-top: 15px;">首页</div>
+			<div class="daohang" id="gaikuang">学院概况</div>
+			<div class="daohang" id="dongtai">学院动态</div>
+			<div class="daohang" id="kaoshi">自学考试</div>
+			<div class="daohang" id="jiaoyu">成人教育</div>
+			<div class="daohang" id="peixun">社会培训</div>
+			<div class="daohang" id="dangjian">党建教育</div>
+			<div class="daohang" id="xiazai">资料下载</div>
+			<div class="daohang" id="zhinan">业务指南</div>
+	 	</div>
+		<div style="clear:both">
+		</div>
+
+		<div style="width:1280px;margin:auto;position: absolute;">
+			<div id="gaikuang1" style="float: left;margin-top: 70px;background-color: #3899aa;width: 200px;height: 200px;margin-left: 150px;visibility:hidden;position:absolute;"><!----学院概况-->
+				<div class="daohang1">
+					<a>学校简介</a>
+				</div>
+				<div class="daohang1">
+					<a>机构设置</a>
+				</div>
+				<div class="daohang1">
+					<a>岗位职责</a>
+				</div>
+				<div class="daohang1">
+					<a>联系我们</a>
+				</div>
+			</div>
+			<div id="dongtai1" style="float: left;margin-top: 70px;background-color: #3899aa;width: 200px;height: 150px;margin-left: 274px;visibility:hidden;position: absolute;"><!----学院动态---->
+				<div class="daohang1">
+					<a>通知公告</a>
+				</div>
+				<div class="daohang1">
+					<a>学院动态</a>
+				</div>
+				<div class="daohang1">
+					<a>精彩瞬间</a>
+				</div>
+			</div>
+			<div id="kaoshi1" style="float: left;margin-top: 70px;background-color: #3899aa;width: 200px;height: 300px;margin-left: 397px;visibility:hidden;position:absolute;"><!----自学考试---->
+				<div class="daohang1">
+					<a>自考新闻</a>
+				</div>
+				<div class="daohang1">
+					<a>政策法规</a>
+				</div>
+				<div class="daohang1">
+					<a>教学管理</a>
+				</div>
+				<div class="daohang1">
+					<a>考务管理</a>
+				</div>
+				<div class="daohang1">
+					<a>学籍管理</a>
+				</div>
+				<div class="daohang1">
+					<a>学生管理</a>
+				</div>
+			</div>
+			<div id="jiaoyu1" style="float: left;margin-top: 70px;background-color: #3899aa;width: 200px;height: 250px;margin-left: 516px;visibility:hidden;position:absolute;"><!----成人教育---->
+				<div class="daohang1">
+					<a>成教动态</a>
+				</div>
+				<div class="daohang1">
+					<a>招生录取</a>
+				</div>
+				<div class="daohang1">
+					<a>教务教学</a>
+				</div>
+				<div class="daohang1">
+					<a>学习园地</a>
+				</div>
+				<div class="daohang1">
+					<a>规章制度</a>
+				</div>
+			</div>
+			<div id="peixun1" style="float: left;margin-top: 70px;background-color: #3899aa;width: 200px;height: 250px;margin-left: 639px;visibility:hidden;position:absolute;"><!----社会培训---->
+				<div class="daohang1">
+					<a>培训动态</a>
+				</div>
+				<div class="daohang1">
+					<a>培训项目</a>
+				</div>
+				<div class="daohang1">
+					<a>培训课程</a>
+				</div>
+				<div class="daohang1">
+					<a>培训考试</a>
+				</div>
+				<div class="daohang1">
+					<a>培训师资</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+<!---------------轮播图-------------->
+	<div style="background-image: url('lunbo.png');height:500px;display: flex;justify-content: center;">
+		<div style="width:1280px;margin:auto;">
+		</div>
+	</div>
+
+<!---------------------------------------主体内容------------------------------------->
+	<div style="background-image: url('index_bg.png');background-size: 100% 100%;">
+		
+<!--------------学院动态------------->
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;margin-top: 30px;line-height: 44px;"><!-----标题----->
+			<div style="float:left;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:846px;height:44px;background-color:3899aa;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">学院动态</a>
+					<div id="gengduo1" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+					
+				</div>
+			</div>
+			<div style="float:left;margin-left:20px;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">平台入口</a>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;"><!-----内容----->
+			<div style="float:left;width:413;background-image:url(XYDT.jpg);background-size:413px 300px;">
+				<a style="float:left;background-color:#44687ECC;width:413px;height:44px;text-align:center;margin-top:220px;">
+					<span style="color:#ffffff;float:left;margin-left:5px;margin-top:10px;">海口经济学院对口单招退役军人报...
+					</span>
+					<em style="float:right;margin-right:5px;font-style: normal;margin-top:10px;">2023-03-03</em>
+				</a>
+			</div>
+			<div style="float:left;margin-left:15px;">
+				<ul class="biao1">
+					<li class="biao2" id="xueyuan111">海口经济学院对口单招退役军人报名开始啦！
+						<span style="float:right;color:#CCCCCC;">2023-03-03</span>
+					</li>
+					<li class="biao2" id="xueyuan222">我校圆满完成2022年国家统一法律职业资格...
+						<span style="float:right;color:#CCCCCC;">2023-03-02</span>
+					</li>
+					<li class="biao2">2022年度医师资格考试医学综合考试顺利结束
+						<span style="float:right;color:#CCCCCC;">2022-11-30</span>
+					</li>
+					<li class="biao2">2022年度省公安厅公开招聘警务辅助人员笔...
+						<span style="float:right;color:#CCCCCC;">2022-11-29</span>
+					</li>
+					<li class="biao2">回 “家” 路上很温馨——迎接学子返校系列...
+						<span style="float:right;color:#CCCCCC;">2022-10-28</span>
+					<li class="biao2">校企合作产业学院全覆盖又拓延——学校签...
+						<span style="float:right;color:#CCCCCC;">2022-10-21</span>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both">
+			</div>
+
+			<div style="float:left;color:#ffffff;font-size:14px;margin:auto;">
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#f15b9d;">
+					<a style="float:left;margin-top:10px;">自学考试学习平台（省内）</a>
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#f47923;">
+					<a style="float:left;margin-top:10px;">自学考试学习平台（省外）</a>
+				</div>
+				<div style="clear:both">
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#807a38;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">项目管理系统（省内）</a>
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#e14056;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">项目管理系统（省外）</a>
+				</div>
+				<div style="clear:both">
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#5780a7;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">旺工淡学网络教学平台</a>
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#2c80a1;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">学历继续教育网络教学平台</a>
+				</div>
+				<div style="clear:both">
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#438e8e;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">职业认证与培训学习平台</a>
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#298482;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">职业认证与培训管理平台</a>
+				</div>
+				<div style="clear:both">
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#d32727;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">过程性学习系统</a>
+				</div>
+				<div style="float:left;width:187px;height:44px;margin-left:20px;padding:0px 0px 0px 10px;background-color:#38c656;margin-top:10px;">
+					<a style="float:left;margin-top:10px;">培训预约平台</a>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+
+<!--------------自学考试------------->
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;margin-top: 30px;line-height: 44px;"><!-----标题----->
+			<div style="float:left;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">自学考试</a>
+					<div id="gengduo2" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+				</div>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">成人教育</a>
+					<div id="gengduo3" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+				</div>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">招生专栏</a>
+				</div>
+			</div>
+	
+			<div style="clear:both">
+			</div>
+		</div>
+
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;"><!-----内容----->
+			<div style="float:left;">
+				<ul class="biao1">
+					<li class="biao2">继续教育学院关于表彰2022年度自学考试助学...
+						<span style="float:right;color:#CCCCCC;">2022-12-14</span>
+					</li>
+					<li class="biao2">关于2022年度自学考试助学班和本科辅修专...
+						<span style="float:right;color:#CCCCCC;">2023-11-30</span>
+					</li>
+					<li class="biao2">关于2022年下半年自学考试助学班毕业生 学...
+						<span style="float:right;color:#CCCCCC;">2022-11-30</span>
+					</li>
+					<li class="biao2">海南省2022年下半年高等教育自学考试疫情...
+						<span style="float:right;color:#CCCCCC;">2022-10-14</span>
+					</li>
+					<li class="biao2">关于做好2022年10月高等教育自学考试 实践...
+						<span style="float:right;color:#CCCCCC;">2022-09-26</span>
+					<li class="biao2">关于开展2022年”专接本“自考助学班报名...
+						<span style="float:right;color:#CCCCCC;">2022-05-19</span>
+					</li>
+				</ul>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<ul class="biao1">
+					<li class="biao2">海口经济学院高等学历继续教育本科毕业设...
+						<span style="float:right;color:#CCCCCC;">2022-11-30</span>
+					</li>
+					<li class="biao2">海口经济学院高等学历继续教育学士学位授...
+						<span style="float:right;color:#CCCCCC;">2023-11-30</span>
+					</li>
+					<li class="biao2">关于我省2022年成人高等学校招生全国统一...
+						<span style="float:right;color:#CCCCCC;">2022-10-26</span>
+					</li>
+					<li class="biao2">海南省2022年成人高等学校招生全国统一考...
+						<span style="float:right;color:#CCCCCC;">2022-10-21</span>
+					</li>
+					<li class="biao2">关于2022年秋季“旺工淡学”海南省旅游业...
+						<span style="float:right;color:#CCCCCC;">2022-09-22</span>
+					<li class="biao2">关于推荐2022届“旺工淡学”旅游业人才培...
+						<span style="float:right;color:#CCCCCC;">2022-07-02</span>
+					</li>
+				</ul>
+			</div>
+	
+			<div style="float:left;margin-left:20px;color:#ffffff;">
+				<div style="width:413px;height:50px;background-color:#f59324;">
+					<img src="zhaosheng1.png" style="margin-left:150px;margin-top:15px;vertical-align: buttom;">
+					<a style="margin-left:20px;font-size:18px;text-align:center;">自学考试</a>
+				</div>
+				<div style="width:413px;height:50px;margin-top:15px;background-color:#18c0cc;">
+					<img src="zhaosheng2.png" style="margin-left:150px;margin-top:15px;vertical-align: buttom;">
+					<a style="margin-left:20px;font-size:18px;text-align:center;">成人教育</a>
+				</div>
+				<div style="width:413px;height:50px;margin-top:15px;background-color:#78ba22;">
+					<img src="zhaosheng3.png" style="margin-left:150px;margin-top:15px;vertical-align: buttom;">
+					<a style="margin-left:20px;font-size:18px;text-align:center;">教育培训基地</a>
+				</div>
+				<div style="width:413px;height:50px;margin-top:15px;background-color:#fb565b;">
+					<img src="zhaosheng4.png" style="margin-left:150px;margin-top:15px;vertical-align: buttom;">
+					<a style="margin-left:20px;font-size:18px;text-align:center;">业务流程指南</a>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+
+<!--------------招生考试------------->
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;margin-top: 30px;line-height: 44px;"><!-----标题----->
+			<div style="float:left;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">招生考试与鉴定中心</a>
+					<div id="gengduo4" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+				</div>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">社会培训</a>
+					<div id="gengduo5" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+				</div>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:413px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">联系方式</a>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;"><!-----内容----->
+			<div style="float:left;">
+				<ul class="biao1">
+					<li class="biao2">最新版国家职业分类大典净增158个新职业！...
+						<span style="float:right;color:#CCCCCC;">2022-10-14</span>
+					</li>
+					<li class="biao2">关停一批仿冒技能类评价证书查询官网 持续...
+						<span style="float:right;color:#CCCCCC;">2023-10-14</span>
+					</li>
+					<li class="biao2">海南省2023年全国硕士研究生招生考试报名...
+						<span style="float:right;color:#CCCCCC;">2022-10-12</span>
+					</li>
+					<li class="biao2">海南省司法厅关于延期举行海南省各考区202...
+						<span style="float:right;color:#CCCCCC;">2022-09-15</span>
+					</li>
+					<li class="biao2">关于2022年度全国会计专业技术初级资格考...
+						<span style="float:right;color:#CCCCCC;">2022-07-06</span>
+					<li class="biao2">海南省2022年度考试录用公务员笔试时间公告
+						<span style="float:right;color:#CCCCCC;">2022-06-28</span>
+					</li>
+				</ul>
+			</div>
+	
+			<div style="float:left;margin-left:20px;">
+				<ul class="biao1">
+					<li class="biao2">2022年海航航空技术有限公司新员工入职培...
+						<span style="float:right;color:#CCCCCC;">2022-12-18</span>
+					</li>
+					<li class="biao2">国家税务总局海南省税务局稽查局管查互动...
+						<span style="float:right;color:#CCCCCC;">2023-11-30</span>
+					</li>
+					<li class="biao2">中央机关及其直属机构2023年度考试录用公...
+						<span style="float:right;color:#CCCCCC;">2022-11-30</span>
+					</li>
+					<li class="biao2">海口经济学院非学历教育管理办法（试行）...
+						<span style="float:right;color:#CCCCCC;">2022-10-31</span>
+					</li>
+					<li class="biao2">2022年海南省“三区”科技人员培训班在我...
+						<span style="float:right;color:#CCCCCC;">2022-10-17</span>
+					<li class="biao2">培训中心宣传栏焕然一新
+						<span style="float:right;color:#CCCCCC;">2022-05-30</span>
+					</li>
+				</ul>
+			</div>
+	
+			<div style="float:left;margin-left:20px;color:#333333">
+				<ul class="biao1">
+					<li class="biao2">0989-6537 3725
+						<span style="float:right;">综合事务</span>
+					</li>
+					<li class="biao2">0989-6531 3622
+						<span style="float:right;">自学考试</span>
+					</li>
+					<li class="biao2">0989-6538 1265
+						<span style="float:right;">成人教育</span>
+					</li>
+					<li class="biao2">0989-6573 3728
+						<span style="float:right;">招生考试与鉴定中心</span>
+					</li>
+					<li class="biao2">0989-6573 3721
+						<span style="float:right;">社会培训</span>
+					<li class="biao2">0989-6550 1106
+						<span style="float:right;">招生咨询</span>
+					</li>
+				</ul>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+
+<!-------------精彩瞬间------------->
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;line-height: 44px;"><!-----标题----->
+			<div style="float:left;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:1279px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">精彩瞬间</a>
+					<div id="gengduo6" style="float: right;width: 72px;height: 44px;">
+						<a style="float:right;color:#ffffff;font-size:14px;margin-right: 15px;">更多&gt</a>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;padding-bottom: 30px;"><!-----内容----->
+			<div id="jingcai11" style="float: left ; width: 308px ; height: 228px;margin-right: 16px;">
+				<img src="jc1.jpg" id="jingcai111" style="width: 308px;height: 228px;">
+				<img src="left_icon.png" style="float: left;margin-top:-125px;margin-left: 15px;">
+				<img src="search_icon.png" style="float: left;width: 20px;height: 20px;margin-top: -120px;margin-left: 140px;">
+
+			</div>
+			<div id="jingcai22" style="float: left ; width: 308px ; height: 228px;margin-right: 16px;background-color: #25778e;">
+				<img src="jc2.jpg" id="jingcai222" style="width: 308px;height: 228px;">
+				<img src="search_icon.png" style="float: left;width: 20px;height: 20px;margin-top: -120px;margin-left: 140px;">
+			</div>
+			<div id="jingcai33" style="float: left ; width: 308px ; height: 228px;margin-right: 16px;">
+				<img src="jc3.jpg" id="jingcai333" style="width: 308px;height: 228px;">
+				<img src="search_icon.png" style="float: left;width: 20px;height: 20px;margin-top: -120px;margin-left: 140px;">
+			</div>
+			<div id="jingcai44" style="float: left ; width: 308px ; height: 228px;">
+				<img src="jc4.png" id="jingcai444" style="width: 308px;height: 228px;position:absolute; z-index: 1;">
+				<img src="search_icon.png" style="float: left;width: 20px;height: 20px;margin-top: 120px;margin-left: 140px;position:absolute; z-index: 111;visibility:hidden;">
+				<img src="right_icon.png" style="float: left;margin-top:120px;margin-left: 260px;position:absolute; z-index: 11;">
+			</div>
+		</div>
+
+
+<!-------------友情链接------------->
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;line-height: 44px;"><!-----标题----->
+			<div style="float:left;">
+				<div style="float:left;background-color:#065968;width:10px;height:44px;">
+				</div>
+				<div style="width:1279px;height:44px;background-color:3899aa;margin:0px 0px 15px;">
+					<a style="float:left;color:#ffffff;font-size:18px;font-weight: bold;margin-left: 20px;">友情链接</a>
+				</div>
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+		<div style="display: flex;justify-content: center;width:1280px;margin:auto;text-align: center;"><!-----内容----->
+			<div class="youqing" id="youqing1" style="margin-right: 15px;">
+				<img src="yq1.png" style="width:70px;height: 70px;margin:15px 87px;padding-bottom: 10px;">
+				<img src="left_icon.png" style="float: left;margin-top:-50px;margin-left: 15px;">
+				<a>中华全国总工会</a>
+			</div>
+			<div class="youqing" id="youqing2" style="margin-right: 15px;">
+				<img src="yq2.png" style="width:70px;height: 70px;margin:15px 87px;padding-bottom: 10px;">
+				<a>社会组织教育培训平台</a>
+			</div>
+			<div class="youqing" id="youqing3" style="margin-right: 15px;">
+				<img src="yq3.png" style="width:70px;height: 70px;margin:15px 87px;padding-bottom: 10px;">
+				<a>海南省人力资源开发局</a>
+			</div>
+			<div class="youqing" id="youqing4" style="margin-right: 15px;">
+				<img src="yq4.png" style="width:70px;height: 70px;margin:15px 87px;padding-bottom: 10px;">
+				<a>海南省教师继续教育网</a>
+			</div>
+			<div class="youqing" id="youqing5" style="margin-bottom: 90px;">
+				<img src="yq5.png" style="width:150px;height: 70px;margin:15px 55px;padding-bottom: 10px;">
+				<img src="right_icon.png" style="float: right;margin-top:-50px;margin-right: 15px;">
+				<a>海南省考试局</a>
+			</div>
+			<div style="clear:both">
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+
+	
+	</div>
+
+
+<!---------------------------------------底部------------------------------------->
+	<div style="background-color: #042f37;height:100px;display: flex;justify-content: center;">
+    	<div style="position: absolute;margin:auto;width:1920;height:100px;">
+			<div style="width:1280px;margin:auto;color: #ffffff;font-size: 14px;">
+				<div style="float:left;margin-top: 20px;">地址：海南省海口市桂林洋高校区海口经济学院后勤大楼一楼
+				</div>
+				<div style="clear: both;"></div>
+				<div style="float:left;margin-top: 20px;">版权所有（2020）海口经济学院 | 继续教育学院 备案序号：<a>琼ICP备05002914号-1 进入后台</a>
+				</div>
+				<div style="float:right;width:200px;height:34px;border-radius:5px;background-color:#ffffff;color:#555555;">
+					<a style="float:left;margin-left:15px;margin-top:8px;">==友情链接==</a>
+				</div>
+			</div>
+	 	</div>
+	</div>
+</body>
+</html>
